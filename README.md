@@ -1,5 +1,9 @@
 # spark-wordcount
 
+## Data file
+- I got the data from the link mentioned in Dr.DeniseCase's repo: (https://github.com/denisecase/setup-spark)
+- The data in the text file is already clean. So I have not performed any commands related to cleaning.
+- Run Powershell as Administrator and command to start Spark with Scala: ```spark-shell```
 ## Steps for processing data using Spark & Implement word count (Finding the top 10 most used words)
 
 ### Step1: Creating an RDD using local text file or any remote file link
@@ -23,6 +27,8 @@
 ### Step7: Calling the function to write into the file
 ```scala> import java.io._```
 ```scala> writingToAFile(new File("C:/output.txt")) { p => res10.foreach(p.println) }```
+## Visual Report
+![](statistics.PNG)
 
 ## References
 - (https://github.com/denisecase/setup-spark)

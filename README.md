@@ -25,3 +25,6 @@
 ```scala> writingToAFile(new File("C:/output.txt")) { p => res10.foreach(p.println) }```
 
 ## References
+- (https://github.com/denisecase/setup-spark)
+- (https://blog.knoldus.com/sorting-in-scala-using-sortedsortby-and-sortwith-function/)
+- (https://stackoverflow.com/questions/49067997/scala-write-rdd-to-txt-file)
